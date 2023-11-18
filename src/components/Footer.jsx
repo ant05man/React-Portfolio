@@ -5,12 +5,8 @@ function Footer() {
     return (
         <div className="footer" id="footer">
             <div>
-                This is the footer!
+                Have A good look Around!!
             </div>
-            <p className='footer-info'>
-                This is the footer info!
-            </p>
-
         </div>
     )
 }
