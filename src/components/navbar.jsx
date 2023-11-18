@@ -1,28 +1,27 @@
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
+import '../styles/Navbar.css';
+
+// By importing the Navbar.css file, it is added to the DOM whenever this component loads
+
+// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
+// Unlike regular HTML, a JSX style property must be an object instead of a string
+// On a style object, we camelCase all property names, and put all of the values in quotes
+// Non quoted values default to "pixels", e.g. height, margin, padding
+
 const styles = {
-    card: {
-      margin: 20,
-      background: '#e8eaf6',
-    },
-    heading: {
-      background: '#9a74db',
-      minHeight: 50,
-      lineHeight: 3.5,
-      fontSize: '1.2rem',
-      color: 'white',
-      padding: '0 20px',
-    },
-  };
-  
-  // In Navbar, we can assign a style from an object by using curly braces
-  function Navbar() {
-    return (
-      <div style={styles.card}>
-        <div style={styles.heading}>Home</div>
-      </div>
-    );
-  }
-  
-  export default Navbar;
-  
+  navbarStyle: {
+    background: 'green',
+    justifyContent: 'flex-end',
+  },
+};
+
+// We use JSX curly braces to evaluate the style object on the JSX tag
+
+function Navbar() {
+  return (
+    <nav style={styles.navbarStyle} className="navbar">
+      <a href="/">Welcome</a>
+    </nav>
+  );
+}
+
+export default Navbar;
