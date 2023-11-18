@@ -1,4 +1,4 @@
-import '../styles/Project.css';
+import '../styles/Section.css';
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -8,16 +8,16 @@ import '../styles/Project.css';
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
 const styles = {
-  projectStyles: {
+  sectionStyles: {
     background: 'orange',
   },
 };
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-function Project() {
+function Section() {
   return (
-    <section style={styles.projectStyles} className="project">
+    <section style={styles.sectionStyles} className="section">
       <h2>Lorem Ipsum Dolor Sit Amet</h2>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -62,4 +62,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Section;
