@@ -1,4 +1,4 @@
-import '../styles/Navbar.css';
+import '../styles/Project.css';
 import React from 'react';
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -9,16 +9,12 @@ import React from 'react';
 
 // We use JSX curly braces to evaluate the style object
 
-function Navbar() {
+function Project() {
   return (
-    <header className="navbar">
-      <a href="#aboutme">About Me</a>
-      <a href="/Portfolio.jsx">Portfolio</a>
-      <a href="/Contact.jsx">Contact</a>
-      <a href="/Resume.jsx">Resume</a>
-
+    <header className="project">
+      <h1>Project Page</h1>
     </header>
   );
 }
 
-export default Navbar;
+export default Project;
