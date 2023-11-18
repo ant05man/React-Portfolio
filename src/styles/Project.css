@@ -1,11 +1,11 @@
 .project{
-    background: pink;
-    height: 200px;
+    background: #ece4b7;
+    height: 100vh;
   }
   
   .project h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 0;
     text-align: center;
     color: white;
     font-size: 3rem;

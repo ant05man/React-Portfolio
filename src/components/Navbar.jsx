@@ -1,5 +1,6 @@
 import '../styles/Navbar.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
 // We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
@@ -12,10 +13,10 @@ import React from 'react';
 function Navbar() {
   return (
     <header className="navbar">
-      <a href="#aboutme">About Me</a>
-      <a href="/Portfolio.jsx">Portfolio</a>
-      <a href="/Contact.jsx">Contact</a>
-      <a href="/Resume.jsx">Resume</a>
+     <Link to="/aboutme" className="navbar-link">About Me</Link>
+      <Link to="/Portfolio.jsx" className="navbar-link">Portfolio</Link>
+      <Link to="/Contact.jsx" className="navbar-link">Contact</Link>
+      <Link to="/Resume.jsx" className="navbar-link">Resume</Link>
 
     </header>
   );

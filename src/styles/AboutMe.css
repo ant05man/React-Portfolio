@@ -1,3 +1,13 @@
-.aboutme {
-    color: blue;
-}
+.aboutme{
+    background: blue;
+    height: 100vh;
+  }
+  
+  .aboutme p {
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  

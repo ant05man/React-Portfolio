@@ -1,13 +1,15 @@
 .navbar {
     background: #7FB069;
     height: 60px;
+    align-items: center;
+    margin-bottom:0;
   }
   
   .navbar a {
     color: white;
     font-size: 1.3rem;
     text-decoration: none;
-    margin: 5px;
+    margin:0 100px;
     line-height: 3;
+    align-items: center;
   }
-  
