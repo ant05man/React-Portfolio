@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Section from "./components/Section";
+import Section from "./components/Project";
 import Navbar from "./components/Navbar";
 
 function App() {
