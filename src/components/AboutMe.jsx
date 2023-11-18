@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../styles/AboutMe.css';
 import React from 'react';
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -9,12 +9,14 @@ import React from 'react';
 
 // We use JSX curly braces to evaluate the style object
 
-function Header() {
+function AboutMe() {
   return (
-    <header className="header">
-      <h1>Anthony Littlejohn</h1>
+    <header className="aboutme">
+      <p>
+      Hello, I am an entry-level software developer with a passion for learning and being the best version of myself.
+    </p>
     </header>
   );
 }
 
-export default Header;
+export default AboutMe;

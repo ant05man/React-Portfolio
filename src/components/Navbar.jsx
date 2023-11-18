@@ -12,7 +12,11 @@ import React from 'react';
 function Navbar() {
   return (
     <header className="navbar">
-      <h1>Welcome</h1>
+      <a href="/AboutMe.jsx">About Me</a>
+      <a href="/Portfolio.jsx">Portfolio</a>
+      <a href="/Contact.jsx">Contact</a>
+      <a href="/Resume.jsx">Resume</a>
+
     </header>
   );
 }
