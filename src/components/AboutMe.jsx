@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <header className="aboutme">
       <p>
-      Hello, I am an entry-level software developer with a passion for learning and being the best version of myself.
+      Hello, I am an entry-level software developer with a passion for learning.
     </p>
     </header>
   );

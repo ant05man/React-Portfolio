@@ -3,15 +3,41 @@ import '../styles/Resume.css/';
 
 const Resume = () => {
   return (
-    <div>
+    <div className="resumeDiv">
       <h2 className="resumeTitle">Resume</h2>
-      {/* Resume */}
-      <p>Education, Experience, Skills</p>
-
-      {/* Download link */}
-      <a href="/path-to-your-resume.pdf" download>
-        Download Resume
+       {/* Download link */}
+       <a href="/src/components/AnthonyL Resume.docx" className="resumeDownload" download>
+        Download Resume<br></br><br></br>
       </a>
+      <ul>
+      <h3 className="resumeInfo">
+        <li className="resumeTitle">Education</li>
+        <li>
+            <span style={{ color: 'red' }}>
+            <img src="/assets/rutgers-scarlet-knights-logo.png" alt="Rutgers Logo" className="rutgersLogo"></img>Rutgers University, New Brunswick, NJ
+        </span>
+            </li>
+                <li>Coding Bootcamp Dec 2023</li><br></br>
+
+        <li>
+        <span style={{ color: 'red' }}>
+            <img src="/assets/MSU logo.png" alt="Montclair State Logo" className="msuLogo"></img>
+                Montclair State University, Montclair, NJ
+        </span>
+        </li>
+                BS in Environmental Science Jan 2021<br></br><br></br>
+        
+         <li className="resumeTitle">Experience</li>
+            <li>- Entry Level</li><br></br>
+         <li className="resumeTitle">Skills</li>
+            <li>- Teamwork</li>
+            <li>- Creating responsive web API's</li>
+            <li>- Client-Server Models </li>
+            <li>- Agile Development</li>
+            <li>- JSON</li>
+         </h3>
+      </ul>
+
     </div>
   );
 };

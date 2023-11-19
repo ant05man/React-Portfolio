@@ -1,3 +1,21 @@
 .resumeTitle{
-    color: blueviolet;
+    color: black;
+    font-style:italic;
+}
+
+.rutgersLogo {
+    height:5vh;
+}
+
+.resumeDiv {
+    justify-content: center;
+    text-align: center;
+}
+
+.msuLogo {
+    height:5vh;
+}
+
+a.resumeDownload{
+    color: navy;
 }
