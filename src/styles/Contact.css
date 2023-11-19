@@ -1,0 +1,41 @@
+form {
+background-color: #e6aa68;
+width: 50%;
+height: 100;
+justify-content: center;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+}
+
+h2 {
+    background-color: yellow;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font: 2em sans-serif;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+#message {
+    height: 150px;
+}
+
+body {
+    background-color: #ece4b7;
+}

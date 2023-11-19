@@ -4,17 +4,20 @@ import '../styles/Contact.css';
 function Contact() {
   return (
     <div>
-      <h2>HTML Forms</h2>
+      <h2>Contact Form</h2>
 
-      <form action="/action_page.php">
-        <label htmlFor="fname">First name:</label><br />
+      <form>
+        <label htmlFor="fname">First name:</label>
         <input type="text" id="fname" name="fname" /><br />
-        <label htmlFor="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname"/><br /><br />
+        <label htmlFor="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"/><br />
+        <label htmlFor="lname">Email:</label>
+        <input type="text" id="email" name="email"/><br />
+        <label htmlFor="lname">Message:</label>
+        <input type="text" id="message" name="message"/><br />
         <input type="submit" value="Submit" />
       </form>
 
-      <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
     </div>
   );
 }
