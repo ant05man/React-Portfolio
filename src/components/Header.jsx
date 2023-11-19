@@ -12,7 +12,7 @@ import React from 'react';
 function Header() {
   return (
     <header className="header">
-      <h1>Welcome To Anthony's Portfolio</h1>
+      <h1>Anthony Littlejohn Portfolio</h1>
     </header>
   );
 }
