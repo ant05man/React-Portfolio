@@ -3,8 +3,8 @@ import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <div>
-      <h2>Contact Form</h2>
+    <div className="contactDiv">
+      <h2 className="contactTitle">Contact Form</h2>
 
       <form>
         <label htmlFor="fname">First name:</label>

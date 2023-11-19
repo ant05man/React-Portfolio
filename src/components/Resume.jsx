@@ -4,7 +4,7 @@ import '../styles/Resume.css/';
 const Resume = () => {
   return (
     <div>
-      <h2 className="resumeTitle">Anthony Littlejohn's Resume</h2>
+      <h2 className="resumeTitle">Resume</h2>
       {/* Resume */}
       <p>Education, Experience, Skills</p>
 

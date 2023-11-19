@@ -8,14 +8,14 @@ padding: 10px;
 text-align: center;
 }
 
-h2 {
+.contactTitle {
     background-color: yellow;
     width: 50%;
     margin: 0 auto;
     border: 2px solid black;
 }
 
-div {
+.contactDiv {
     text-align: center;
     align-items: center;
     justify-content: center;
