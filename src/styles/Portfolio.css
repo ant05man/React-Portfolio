@@ -21,13 +21,6 @@ body {
     font-size:32px;
 }
 
-.AboutMe {
-    color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    width: 85%;
-    font-style: italic;
-}
 
 aside {
     float: left;
@@ -53,6 +46,8 @@ aside {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;;
+    text-align: center;
+    height: 100vh;
   }
   
   .flex-container > div {

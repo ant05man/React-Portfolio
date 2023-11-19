@@ -1,5 +1,6 @@
 .navbar {
-    background: #7FB069;
+  background: linear-gradient(to right, #4a9e23, #05afaf); /* Adjust the colors as needed */
+
     height: 60px;
     align-items: center;
     margin-bottom:0;

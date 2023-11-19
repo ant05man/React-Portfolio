@@ -1,12 +1,12 @@
 .header {
-    background: #D36135;
-    height: 70px;
+  background: repeating-linear-gradient(to bottom, #D36135, #D36135 20px, transparent 20px, transparent 40px);
+  height: 70px;
   }
   
   .header h1 {
     margin: 0;
     text-align: center;
-    color: white;
+    
     font-size: 3rem;
   }
   
