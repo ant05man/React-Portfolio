@@ -4,6 +4,7 @@ import '../styles/Contact.css';
 function Contact() {
   const [showRequiredPrompt, setShowRequiredPrompt] = useState(false);
   const [showEmailPrompt, setShowEmailPrompt] = useState(false);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -22,6 +23,17 @@ function Contact() {
     } else {
       // Perform form submission logic here (e.g., send data to the server)
       console.log('Form submitted successfully!');
+
+      // Reset the form
+      event.target.reset();
+
+      // Display the success message
+      setShowSuccessMessage(true);
+
+      // Hide success message after a certain time (e.g., 3 seconds)
+      setTimeout(() => {
+        setShowSuccessMessage(false);
+      }, 3000);
     }
   };
 
@@ -52,6 +64,12 @@ function Contact() {
         <div className="prompt">
           <p>Please enter a valid email address.</p>
           <button onClick={handleClosePrompt}>OK</button>
+        </div>
+      )}
+
+      {showSuccessMessage && (
+        <div className="successMessage">
+          <p>Form submitted successfully!</p>
         </div>
       )}
 
