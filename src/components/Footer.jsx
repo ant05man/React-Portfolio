@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer" id="footer">
                 <ul>
                 <li><a href="https://www.github.com/ant05man">GitHub</a></li>
-                <li><a href="linkedin.com/in/anthony-l-b767791b7/">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/anthony-l-b767791b7/">LinkedIn</a></li>
                 </ul>
         </div>
     )
