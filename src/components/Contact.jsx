@@ -6,6 +6,25 @@ function Contact() {
   const [showEmailPrompt, setShowEmailPrompt] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
+  const handleBlur = (event) => {
+    const fieldName = event.target.name;
+    const fieldValue = event.target.value;
+
+    if (!fieldValue) {
+      // If the field is empty, show the required prompt
+      setShowRequiredPrompt(true);
+    } else if (fieldName === 'email' && !isValidEmail(fieldValue)) {
+      // If it's the email field and the email is not valid, show the email prompt
+      setShowEmailPrompt(true);
+    }
+  };
+
+  const handleClosePrompt = () => {
+    // Close all prompts when the user clicks on them or performs any other action
+    setShowRequiredPrompt(false);
+    setShowEmailPrompt(false);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -37,12 +56,6 @@ function Contact() {
     }
   };
 
-  const handleClosePrompt = () => {
-    // Close all prompts when the user clicks on them or performs any other action
-    setShowRequiredPrompt(false);
-    setShowEmailPrompt(false);
-  };
-
   const isValidEmail = (value) => {
     // Basic email validation using a regular expression
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -55,7 +68,7 @@ function Contact() {
 
       {showRequiredPrompt && (
         <div className="prompt">
-          <p>Please fill in all required fields.</p>
+          <p>This field is required.</p>
           <button onClick={handleClosePrompt}>OK</button>
         </div>
       )}
@@ -75,13 +88,13 @@ function Contact() {
 
       <form onSubmit={handleSubmit}>
         <label htmlFor="fname">First name:</label>
-        <input type="text" id="fname" name="fname" required /><br />
+        <input type="text" id="fname" name="fname" required onBlur={handleBlur} /><br />
         <label htmlFor="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" required /><br />
+        <input type="text" id="lname" name="lname" required onBlur={handleBlur} /><br />
         <label htmlFor="email">Email:</label>
-        <input type="text" id="email" name="email" required /><br />
+        <input type="text" id="email" name="email" required onBlur={handleBlur} /><br />
         <label htmlFor="message">Message:</label>
-        <input type="text" id="message" name="message" required /><br />
+        <input type="text" id="message" name="message" required onBlur={handleBlur} /><br />
         <input type="submit" value="Submit" />
       </form>
     </div>
