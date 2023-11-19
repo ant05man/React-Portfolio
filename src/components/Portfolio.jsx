@@ -40,10 +40,10 @@ function Portfolio() {
                     <div className="bottom-center">Workday-Scheduler Project</div>
                 </div>
                 <div id="box6" className="imageContainer">
-                    <a href="https://ant05man.github.io/Workday-scheduler/">
-                        <img src="src/components/Screenshot (42).png" />
+                    <a href="https://ant05man.github.io/password-generator/">
+                        <img src="src/components/Screenshot (8).png" />
                     </a>
-                    <div className="bottom-center">Workday-Scheduler Project</div>
+                    <div className="bottom-center">PassWord Generator</div>
                 </div>
             </div>
         </section>
