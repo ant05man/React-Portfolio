@@ -15,6 +15,10 @@
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.19.0"
     },
+    "netlify": {
+        "build":"npm run build",
+        "publish":"build"
+    },
     "devDependencies": {
         "@types/react": "^18.0.28",
         "@types/react-dom": "^18.0.11",

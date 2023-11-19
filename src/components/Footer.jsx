@@ -4,9 +4,10 @@ import '../styles/Footer.css';
 function Footer() {
     return (
         <div className="footer" id="footer">
-            <div>
-                Have A good look Around!!
-            </div>
+                <ul>
+                <li><a href="https://www.github.com/ant05man">GitHub</a></li>
+                <li><a href="linkedin.com/in/anthony-l-b767791b7/">LinkedIn</a></li>
+                </ul>
         </div>
     )
 }

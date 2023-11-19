@@ -4,4 +4,30 @@
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex; /* Make the list items display horizontally */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-right: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #42a5f5;
+    text-decoration: underline;
+  }
+  

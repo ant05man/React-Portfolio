@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Resume from "./components/Resume";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css'; // CSS file
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
       <div>
         <Header />
         <Navbar />
-        <Footer />
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/aboutme" element={<AboutMe />} />
@@ -24,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
