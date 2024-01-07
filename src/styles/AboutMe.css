@@ -1,5 +1,5 @@
 .aboutme{
-    background: #dfded4;
+    background: rgb(1, 1, 62);
     height: 100vh;
   }
   
@@ -7,7 +7,7 @@
     margin: 0;
     padding-top: 0;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2rem;
   }
   
