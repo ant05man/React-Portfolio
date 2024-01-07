@@ -2,7 +2,6 @@
     "name": "react-portfolio",
     "private": true,
     "version": "0.0.0",
-    "type": "module",
     "scripts": {
         "dev": "npx vite",
         "start": "npx vite",
@@ -17,7 +16,7 @@
         "react-router-dom": "^6.19.0"
     },
     "vercel": {
-        "build": "npm run build",
+        "build": "npx vite build",
         "publish": "build"
     },
     "devDependencies": {
