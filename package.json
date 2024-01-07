@@ -4,12 +4,12 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "start": "vite",
-        "build": "vite build",
+        "dev": "npx vite",
+        "start": "npx vite",
+        "build": "npx vite build",
         "render-build": "npm install && npm run build",
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-        "preview": "vite preview"
+        "preview": "npx vite preview"
     },
     "dependencies": {
         "react": "^18.2.0",
