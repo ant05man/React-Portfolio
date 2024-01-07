@@ -7,6 +7,7 @@
         "dev": "vite",
         "start": "vite",
         "build": "vite build",
+        "render-build":"npm install && npm run build",
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
