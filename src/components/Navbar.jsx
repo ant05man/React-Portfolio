@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <header className="navbar">
      <Link to="/aboutme" className="navbar-link">About Me</Link>
-      <Link to="/portfolio" className="navbar-link">Portfolio</Link>
+      <Link to="/portfolio" className="navbar-link">Projects</Link>
       <Link to="/contact" className="navbar-link">Contact</Link>
       <Link to="/resume" className="navbar-link">Resume</Link>
 

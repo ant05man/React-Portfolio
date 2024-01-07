@@ -11,9 +11,12 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <header className="aboutme">
+    <header className="aboutme" style={{ textAlign: 'center', paddingTop: '30vh' }}>
       <p>
-      Hello, I am an entry-level software developer with a passion for learning.
+        Hello I am<br></br>
+      <h2>Anthony Littlejohn</h2>
+      <br></br>I'm a software engineer based in New Jersey that specializes
+    <br></br>In Full-Stack Development
     </p>
     </header>
   );

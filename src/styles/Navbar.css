@@ -1,16 +1,18 @@
 .navbar {
   background: linear-gradient(to right, #cad1d0, #0fc3d4); /* Adjust the colors as needed */
 
-    height: 60px;
+    height: 40px;
     align-items: center;
     margin-bottom:0;
+    display: flex;
   }
   
   .navbar a {
     color: navy;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
     margin:0 100px;
     line-height: 3;
     align-items: center;
+    margin: 0 20px;
   }
