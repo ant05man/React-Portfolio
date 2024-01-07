@@ -1,3 +1,5 @@
 .netlify
 package-lock.json
 node_modules
+
+.vercel
