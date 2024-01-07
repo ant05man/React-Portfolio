@@ -1,6 +1,6 @@
 .header {
-  background: repeating-linear-gradient(to bottom, #D36135, #D36135 20px, transparent 20px, transparent 40px);
   height: 70px;
+  background: #dfded4;
   }
   
   .header h1 {

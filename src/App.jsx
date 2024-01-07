@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
@@ -15,7 +14,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Header />
         <Navbar />
         <Routes>
           <Route path="/" element={<AboutMe />} />
