@@ -7,7 +7,7 @@ function Portfolio() {
             <div className="flex-container">
                 <div id="box1" className="imageContainer">
                     <a href="https://ant05man.github.io/SEO-HTML-Refactor/">
-                        <img src="src/components/Screenshot (3).png" style={{ position: 'relative', left: 0 }} />
+                        <img src='/Screenshot (3).png' style={{ position: 'relative', left: 0 }} />
                     </a>
                     <div className="bottom-center">SEO-Refactor</div>
                 </div>
