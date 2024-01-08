@@ -1,6 +1,6 @@
 .footer {
-    background: #06afbe;
-    height: 30px;
+  background: linear-gradient(to right, #cad1d0, aqua); /* Adjust the colors as needed */
+    height: 40px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -8,7 +8,15 @@
     justify-content: center;
     align-items: center;
   }
+
+  .footer img {
+    width: 30px;
+    height: 30px;
+  }
   
+  .footer img:hover {
+    background-color:white;
+  }
   .footer ul {
     list-style: none;
     display: flex; /* Make the list items display horizontally */
@@ -22,7 +30,7 @@
   
   .footer a {
     text-decoration: none;
-    color: white;
+    color: navy;
     font-weight: bold;
   }
   

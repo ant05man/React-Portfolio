@@ -14,9 +14,9 @@ function AboutMe() {
     <header className="aboutme" style={{ textAlign: 'center', paddingTop: '30vh' }}>
       <p>
         Hello I am<br></br>
-      <h2>Anthony Littlejohn</h2>
-      <br></br>I'm a software engineer based in New Jersey that specializes
-    <br></br>In Full-Stack Development
+      <h2 className='nameText'>Anthony Littlejohn</h2>
+      <br></br><h5 className='bodyText'>I'm a software engineer based in New Jersey that specializes
+    <br></br>In Full-Stack Development</h5>
     </p>
     </header>
   );

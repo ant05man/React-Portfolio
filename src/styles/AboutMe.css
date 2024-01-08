@@ -1,6 +1,8 @@
 .aboutme{
-    background: rgb(1, 1, 62);
+    background: url('./assets/navy design wallpaper.jpg');
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .aboutme p {
@@ -10,4 +12,12 @@
     color: white;
     font-size: 2rem;
   }
+
+.aboutme .nameText {
+  color:aqua;
+}
+
+.aboutme .bodyText {
+  font-size: 1rem;
+}
   

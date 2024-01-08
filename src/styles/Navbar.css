@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(to right, #cad1d0, #0fc3d4); /* Adjust the colors as needed */
+  background: linear-gradient(to right, #cad1d0, aqua); /* Adjust the colors as needed */
 
     height: 40px;
     align-items: center;
@@ -15,4 +15,8 @@
     line-height: 3;
     align-items: center;
     margin: 0 20px;
+  }
+
+  .navbar a:hover {
+    color:white;
   }
