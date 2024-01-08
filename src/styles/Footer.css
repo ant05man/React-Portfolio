@@ -14,9 +14,6 @@
     height: 30px;
   }
   
-  .footer img:hover {
-    background-color:white;
-  }
   .footer ul {
     list-style: none;
     display: flex; /* Make the list items display horizontally */
