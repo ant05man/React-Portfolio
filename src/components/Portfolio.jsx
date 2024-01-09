@@ -15,11 +15,11 @@ function Portfolio() {
                 </div>
 
                 <div id="box2" className="imageContainer">
-                    <a href="https://ant05man.github.io/Landing-Page-Project/">
-                        <img src="/Screenshot (5).png" />
+                    <a href="https://reel-delights.onrender.com/">
+                        <img src="/Screenshot (51).png" />
                     </a>
                 <div className="text-container">
-                    <div className="bottom-center">Landing Page Mini-Project</div>
+                    <div className="bottom-center">Reel-Delights</div>
                 </div>
                 </div>
 
@@ -46,7 +46,7 @@ function Portfolio() {
                         <img src="/Screenshot (42).png" />
                     </a>
                     <div className="text-container">
-                    <div className="bottom-center">Workday-Scheduler Project</div>
+                    <div className="bottom-center">Workday-Scheduler</div>
                     </div>
                 </div>
                 <div id="box6" className="imageContainer">
