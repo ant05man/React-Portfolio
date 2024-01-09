@@ -39,7 +39,6 @@ const Resume = () => {
             <li>- Agile Development</li>
             <li>- JSON</li>
             <li>- MERN</li>
-            <li>- Agile Development</li>
          </h3>
       </ul>
 
