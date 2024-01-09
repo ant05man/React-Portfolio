@@ -17,7 +17,7 @@ const Resume = () => {
             <img src="/assets/rutgers-scarlet-knights-logo.png" alt="Rutgers Logo" className="rutgersLogo"></img>Rutgers University, New Brunswick, NJ
         </span>
             </li>
-                <li>Coding Bootcamp Dec 2023</li><br></br>
+                <li>Full-Stack Development Bootcamp Dec 2023</li><br></br>
 
         <li>
         <span style={{ color: 'red' }}>
@@ -29,12 +29,17 @@ const Resume = () => {
         
          <li className="resumeTitle">Experience</li>
             <li>- Entry Level</li><br></br>
-         <li className="resumeTitle">Skills</li>
-            <li>- Teamwork</li>
+         <li className="resumeTitle">Technical Skills</li>
+            <li>- NodeJS/ReactJS</li>
+            <li>- HTML/CSS/JavaScript</li>
+            <li>- MongoDB</li>
+            <li>- GraphQL</li>
             <li>- Creating responsive web API's</li>
             <li>- Client-Server Models </li>
             <li>- Agile Development</li>
             <li>- JSON</li>
+            <li>- MERN</li>
+            <li>- Agile Development</li>
          </h3>
       </ul>
 

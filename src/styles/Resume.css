@@ -1,5 +1,12 @@
+.resumeDiv {
+    height:100vh;
+}
+
+.resumeDiv a:link{
+    color:yellow;
+}
 .resumeTitle{
-    color: black;
+    color: aqua;
     font-style:italic;
 }
 
@@ -10,12 +17,9 @@
 .resumeDiv {
     justify-content: center;
     text-align: center;
+    overflow-y:auto;
 }
 
 .msuLogo {
     height:5vh;
-}
-
-a.resumeDownload{
-    color: navy;
 }

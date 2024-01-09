@@ -28,7 +28,7 @@ function Portfolio() {
                         <img src="/Screenshot (6).png" />
                     </a>
                     <div className="text-container">
-                    <div className="bottom-center">Flexbox Mini Project</div>
+                    <div className="bottom-center">Flexbox</div>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ function Portfolio() {
                         <img src="/Screenshot (8).png" />
                     </a>
                     <div className="text-container">
-                    <div className="bottom-center">PassWord Generator</div>
+                    <div className="bottom-center">Random Password Generator</div>
                     </div>
                 </div>
             </div>
