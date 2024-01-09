@@ -14,14 +14,14 @@ const Resume = () => {
         <li className="resumeTitle">Education</li>
         <li>
             <span style={{ color: 'red' }}>
-            <img src="/assets/rutgers-scarlet-knights-logo.png" alt="Rutgers Logo" className="rutgersLogo"></img>Rutgers University, New Brunswick, NJ
+            <img src="/rutgers-scarlet-knights-logo.png" alt="Rutgers Logo" className="rutgersLogo"></img>Rutgers University, New Brunswick, NJ
         </span>
             </li>
                 <li>Full-Stack Development Bootcamp Dec 2023</li><br></br>
 
         <li>
         <span style={{ color: 'red' }}>
-            <img src="/assets/MSU logo.png" alt="Montclair State Logo" className="msuLogo"></img>
+            <img src="/MSU logo.png" alt="Montclair State Logo" className="msuLogo"></img>
                 Montclair State University, Montclair, NJ
         </span>
         </li>
