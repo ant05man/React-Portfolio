@@ -2,10 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 body {
-    background-color: #CDDEEE;
+    background: url('/assets/navy design wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -28,7 +31,6 @@ aside {
     font-size: 32px;
     font-style: italic;
     color: navy;
-     left: 30px;
 }
 
 .Work {
@@ -225,14 +227,25 @@ opacity: 0.5;
     position: relative;
     text-align: center;
     color: red;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 10px;
+    flex:1;
 }
 
 .bottom-center {
     position: absolute;
     font-size: 18px;
-    top: 50%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align:right;
 }
 @media screen and (max-width: 992px) {
     .flex-container {
