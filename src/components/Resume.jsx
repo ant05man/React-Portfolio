@@ -28,7 +28,7 @@ const Resume = () => {
                 BS in Environmental Science Jan 2021<br></br><br></br>
         
          <li className="resumeTitle">Experience</li>
-            <li>- Entry Level</li><br></br>
+            <li>- 6-month Intensive Coding Bootcamp</li><br></br>
          <li className="resumeTitle">Technical Skills</li>
             <li>- NodeJS/ReactJS</li>
             <li>- HTML/CSS/JavaScript</li>
