@@ -17,7 +17,7 @@ const Resume = () => {
             <img src="/rutgers-scarlet-knights-logo.png" alt="Rutgers Logo" className="rutgersLogo"></img>Rutgers University, New Brunswick, NJ
         </span>
             </li>
-                <li>Full-Stack Development Bootcamp Dec 2023</li><br></br>
+                <li>Full-Stack Coding Bootcamp Certification Dec 2023</li><br></br>
 
         <li>
         <span style={{ color: 'red' }}>
