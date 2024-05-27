@@ -2,8 +2,7 @@ import React from 'react';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
-import Project from "./components/Project";
-import Portfolio from './components/Portfolio';
+import Projects from "./components/Projects";
 import Contact from './components/Contact';
 import Resume from "./components/Resume";
 
@@ -18,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
