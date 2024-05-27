@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Homepage from "./components/Homepage";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from './components/Contact';
@@ -15,7 +16,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
