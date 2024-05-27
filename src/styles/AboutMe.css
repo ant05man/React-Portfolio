@@ -1,23 +1,26 @@
-.aboutme{
-    background: url('/assets/navy design wallpaper.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .aboutme p {
-    margin: 0;
-    padding-top: 0;
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-  }
-
-.aboutme .nameText {
-  color:aqua;
+/* AboutMe.css */
+.aboutme {
+  text-align: center;
+  padding-top: 30vh;
 }
 
-.aboutme .bodyText {
-  font-size: 1rem;
+.nameText {
+  font-size: 2em;
+  font-weight: bold;
 }
-  
+
+.bodyText {
+  font-size: 1.2em;
+}
+
+.skillsTable {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.skillsTable th, .skillsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
