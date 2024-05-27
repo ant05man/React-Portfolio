@@ -18,16 +18,20 @@
   align-items:center;
   justify-content: center;
   text-align: center;
+  color:white;
 }
 
 .skillsTable {
   width: 50%;
   border-collapse: collapse;
   margin-top: 20px;
+  color:navy;
 }
 
 .skillsTable th, .skillsTable td {
   border: 1px solid #ddd;
   padding: 8px;
+  color:navy;
+  font-weight:400px;
 }
 

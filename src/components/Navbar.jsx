@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <header className="navbar">
+      <Link to="/homepage" className="navbar-link">Homepage</Link>
      <Link to="/aboutme" className="navbar-link">About Me</Link>
       <Link to="/projects" className="navbar-link">Projects</Link>
       <Link to="/contact" className="navbar-link">Contact</Link>
