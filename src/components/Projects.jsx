@@ -10,7 +10,7 @@ function Projects() {
                         <img src="/Cryptid-World Screenshot.png" style={{ position: 'relative', left: 0 }} />
                     </a>
                 <div className="text-container">
-                    <div className="bottom-center">SEO-Refactor</div>
+                    <div className="bottom-center">Cryptid-World</div>
                 </div>
                 </div>
 
