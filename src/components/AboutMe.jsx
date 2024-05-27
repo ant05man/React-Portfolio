@@ -21,6 +21,7 @@ const skills = [
 
 function AboutMe() {
   return (
+    <div style={{ paddingBottom: '60px' }}>
     <header className="aboutme" style={{ textAlign: 'center', paddingTop: '30vh' }}>
       <p>
         Hello I am<br></br>
@@ -43,6 +44,7 @@ function AboutMe() {
       </tbody>
     </table>
     </header>
+  </div>
   );
 }
 
