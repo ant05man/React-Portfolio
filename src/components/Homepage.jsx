@@ -1,12 +1,16 @@
-import '../styles/AboutMe.css';
+import '../styles/Homepage.css';
 import React from 'react';
 
 
 function Homepage() {
     return (
-        <h5>
-            Welcome friends, I'm Anthony
-        </h5>
+        <header className="homepageHeader" style={{ textAlign: 'center', paddingTop: '30vh' }}>
+
+        <h1>
+            Welcome friends,<br></br> I'm Anthony
+        </h1><br></br>
+        <p>Full-Stack Software Developer</p>
+        </header>
     )
 }
 
