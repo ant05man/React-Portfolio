@@ -16,7 +16,7 @@
         "react-router-dom": "^6.19.0"
     },
     "vercel": {
-        "build": "npx vite build",
+        "build": "npx run build",
         "publish": "build"
     },
     "devDependencies": {
