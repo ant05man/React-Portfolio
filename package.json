@@ -5,7 +5,8 @@
     "scripts": {
       "dev": "npx vite",
       "start": "npx vite",
-      "build": "npx vite build",
+      "vercel-build":"vite build",
+      "build": "vite build",
       "render-build": "npm install && npm run build",
       "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
       "preview": "npx vite preview"
