@@ -1,16 +1,23 @@
 /* AboutMe.css */
 .aboutme {
-  text-align: center;
-  padding-top: 30vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  padding-top: 20vh;
 }
 
 .nameText {
-  font-size: 2em;
+
   font-weight: bold;
 }
 
 .bodyText {
-  font-size: 1.2em;
+  text-align:center;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
 }
 
 .skillsTable {

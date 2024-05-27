@@ -21,15 +21,15 @@ const skills = [
 
 function AboutMe() {
   return (
-    <div style={{ paddingBottom: '60px' }}>
-    <header className="aboutme" style={{ textAlign: 'center', paddingTop: '30vh' }}>
+    <div>
+    <header className="aboutme" style={{ textAlign: 'center', paddingTop: '10vh' }}>
       <p>
-        Hello I am<br></br>
+        <h2>Hello I am</h2><br></br>
       <h2 className='nameText'>Anthony Littlejohn</h2>
-      <br></br><h5 className='bodyText'>I'm a software engineer based in New Jersey that specializes
-    <br></br>In Full-Stack Development</h5>
+      <br></br>< h3 className='bodyText'>I'm a software engineer based in New Jersey that specializes
+    In Full-Stack Development. I have graduated from the Rutgers Full-Stack Coding Bootcamp, where I have had the opportunity to learn from some great teachers and meet some great people. I have re-awaked a passion of mine that I have had since I was in high school, and now I feel is the time to live my life with something that I am genuinely passionate about. I love to learn and I love that this field allows me the opportunity to learn something new everyday and allows me to use my creativity to create different applications. While you're here, if interested, check out some my projects that I am very proud of!</h3>
     </p>
-    <table className="skillsTable" style={{ margin: '0 auto', marginTop: '20px'}}>
+    <table className="skillsTable" style={{ margin: '0 auto', marginTop: '10px', marginBottom: '20px'}}>
       <thead>
       <tr>
       <th>Skills</th>
