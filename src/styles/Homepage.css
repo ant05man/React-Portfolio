@@ -4,3 +4,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   };
+
+  body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Waiting for the Sunrise', cursive;
+}

@@ -3,33 +3,33 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-      "dev": "npx vite",
-      "start": "npx vite",
-      "build": "npx vite build",
-      "render-build": "npm install && npm run build",
-      "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-      "preview": "npx vite preview"
+        "dev": "npx vite",
+        "start": "npx vite",
+        "build": "npx vite build",
+        "render-build": "npm install && npm run build",
+        "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "npx vite preview"
     },
     "dependencies": {
-      "axios": "^1.6.8",
-      "mongodb": "^6.5.0",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0",
-      "react-router-dom": "^6.19.0"
+        "axios": "^1.6.8",
+        "mongodb": "^6.5.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0",
+        "react-router-dom": "^6.19.0"
     },
     "vercel": {
-      "build": "npx vite build",
-      "publish": "build"
+        "build": "npx vite build",
+        "publish": "build"
     },
     "devDependencies": {
-      "@types/react": "^18.0.28",
-      "@types/react-dom": "^18.0.11",
-      "@vitejs/plugin-react": "^4.0.0",
-      "eslint": "^8.38.0",
-      "eslint-plugin-react": "^7.32.2",
-      "eslint-plugin-react-hooks": "^4.6.0",
-      "eslint-plugin-react-refresh": "^0.3.4",
-      "vite": "^5.0.11"
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^4.0.0",
+        "eslint": "^8.38.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.3.4",
+        "vite": "^5.0.11"
     }
-  }
-  
+}

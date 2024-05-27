@@ -6,10 +6,9 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from './components/Contact';
 import Resume from "./components/Resume";
-
+import './styles/Navbar.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'; // CSS file
-
 function App() {
   return (
     <Router>
