@@ -6,8 +6,8 @@ function Projects() {
         <section className="WorkInfo">
             <div className="flex-container">
                 <div id="box1" className="imageContainer">
-                    <a href="https://ant05man.github.io/SEO-HTML-Refactor/">
-                        <img src='/Screenshot (3).png' style={{ position: 'relative', left: 0 }} />
+                    <a href="https://cryptid-world.vercel.app/">
+                        <img src="/Cryptid-World Screenshot.png" style={{ position: 'relative', left: 0 }} />
                     </a>
                 <div className="text-container">
                     <div className="bottom-center">SEO-Refactor</div>
