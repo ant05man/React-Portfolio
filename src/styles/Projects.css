@@ -229,16 +229,20 @@ opacity: 0.5;
   color: white;
   display:flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction:column;
+  justify-content: space-between;
 }
 
 .text-container {
+  bottom:0;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-top: 10px;
+  margin-top: auto;
   flex:1;
   color:navy;
   font-size:small;
+  
 }
 
 .bottom-center {
