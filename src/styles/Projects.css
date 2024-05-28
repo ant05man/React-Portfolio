@@ -226,7 +226,7 @@ opacity: 0.5;
 .imageContainer {
   position: relative;
   text-align: center;
-  color: red;
+  color: white;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -237,6 +237,8 @@ opacity: 0.5;
   text-align: center;
   margin-top: 10px;
   flex:1;
+  color:navy;
+  font-size:small;
 }
 
 .bottom-center {
