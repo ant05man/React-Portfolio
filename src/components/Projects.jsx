@@ -12,7 +12,7 @@ function Projects() {
                     </a>
                 <div className="text-container">
                     <div className="bottom-center">Cryptid-World(Still In Development)</div>
-                    Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)
+                    Description: Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)
                 </div>
                 
                 </div>
@@ -23,7 +23,7 @@ function Projects() {
                     </a>
                 <div className="text-container">
                     <div className="bottom-center">Reel-Delights</div>
-                    Indulge in a cinematic journey with Reel-Delights! Invite your friends to watch some of your favorite movies
+                    Description: Indulge in a cinematic journey with Reel-Delights! Invite your friends to watch some of your favorite movies
                 </div>
                 </div>
 
@@ -33,7 +33,7 @@ function Projects() {
                     </a>
                     <div className="text-container">
                     <div className="bottom-center">Flexbox</div>
-                    Master the art of flexible layouts with Flexbox! Create responsive and dynamic web designs effortlessly with this powerful tool.
+                    Description: Master the art of flexible layouts with Flexbox! Create responsive and dynamic web designs effortlessly with this powerful tool.
                     </div>
                 </div>
 
@@ -42,8 +42,8 @@ function Projects() {
                         <img src="/Screenshot (22).png" />
                     </a>
                     <div className="text-container">
-                    <div className="bottom-center">Witty Web Wizard</div>
-                    Enter a world of whimsy and wit with Witty Web Wizard! Embark on a magical journey filled with laughter and delight. Begin your quest for the funniest jokes today
+                    <div className="bottom-center">Full-Stack Recipe Management Application</div>
+Description: Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ function Projects() {
                     </a>
                     <div className="text-container">
                     <div className="bottom-center">Random Password Generator</div>
-                    Ensure security with ease using Random Password Generator! Generate strong and unique passwords instantly to safeguard your online accounts.
+                    Description: Ensure security with ease using Random Password Generator! Generate strong and unique passwords instantly to safeguard your online accounts.
 
                     </div>
                 </div>
