@@ -3,6 +3,13 @@ import '../styles/Projects.css';
 import '../App.css';
 
 const projects = [
+
+    {
+        title: 'Full-Stack Recipe Management Application',
+        description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
+        link: 'food-recipes-ecommerce.vercel.app',
+        image: '/Screenshot (54).png',
+      },
   {
     title: 'Cryptid-World (Still In Development)',
     description: 'Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)',
@@ -14,25 +21,7 @@ const projects = [
     description: 'Indulge in a cinematic journey with Reel-Delights! Invite your friends to watch some of your favorite movies.',
     link: 'https://reel-delights.onrender.com/',
     image: '/Screenshot (51).png',
-  },
-  {
-    title: 'Full-Stack Recipe Management Application',
-    description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
-    link: 'food-recipes-ecommerce.vercel.app',
-    image: '/Screenshot (54).png',
-  },
-  {
-    title: 'Workday-Scheduler',
-    description: 'Stay organized and productive with Workday-Scheduler! Plan your day effectively, schedule tasks, and never miss a deadline again.',
-    link: 'https://ant05man.github.io/Workday-scheduler/',
-    image: '/Screenshot (42).png',
-  },
-  {
-    title: 'Random Password Generator',
-    description: 'Ensure security with ease using Random Password Generator! Generate strong and unique passwords instantly to safeguard your online accounts.',
-    link: 'https://ant05man.github.io/password-generator/',
-    image: '/Screenshot (8).png',
-  },
+  }
 ];
 
 function Projects() {
