@@ -1,37 +1,44 @@
-/* AboutMe.css */
+.aboutme-container {
+  position: relative;
+  overflow: hidden; /* Ensure the background image doesn't overflow */
+}
+
 .aboutme {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align:center;
-  padding-top: 20vh;
+  background-image: url('/simple-cartoon-clouds-sky.png'); /* Adjust path as per your folder structure */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  padding-top: 10vh;
+  text-align: center;
+  color: navy; /* Set text color to contrast with background */
+  position: relative; /* Ensure children are positioned relative to this element */
+  z-index: 0; /* Place behind other content */
+  
+}
+
+.aboutme-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above background image */
+  margin: 0 auto; /* Center content horizontally */
+  max-width: 600px; /* Adjust max-width as needed */
+  padding: 0 20px; /* Add padding to content */
 }
 
 .nameText {
-
+  font-size: 2rem; /* Adjust font size as needed */
   font-weight: bold;
+  margin: 20px 0;
 }
 
 .bodyText {
-  text-align:center;
-  align-items:center;
-  justify-content: center;
-  text-align: center;
-  color:white;
+  font-size: 1.2rem; /* Adjust font size as needed */
+  line-height: 1.6;
+  margin: 20px 0;
 }
 
 .skillsTable {
-  width: 50%;
-  border-collapse: collapse;
+  padding: 10px;
+  border-radius: 5px;
   margin-top: 20px;
-  color:navy;
+  margin: 0 auto; /* Center the table horizontally */
+  max-width: 400px; /* Adjust max-width as needed */
 }
-
-.skillsTable th, .skillsTable td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  color:navy;
-  font-weight:400px;
-}
-

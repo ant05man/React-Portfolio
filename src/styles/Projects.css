@@ -1,266 +1,49 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  color: white;
-}
-
-body {
-  background: url('/simple-cartoon-clouds-sky.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-#AboutMeTitle:hover {
-  color:white;
-
-}
-
-.AboutMe h2 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  color: rgb(81, 69, 3);
-  font-size:32px;
-}
-
-
-aside {
-  float: left;
-  width: 20%;
-  font-size: 32px;
-  font-style: italic;
-  color: navy;
-}
-
-.Work {
-  width: 85%;
+.Projects {
   position: relative;
-  top: 0px;
-  text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow: hidden; /* Ensure the background image doesn't overflow */
 }
 
-.flex-container {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;;
-  text-align: center;
-  height: 100vh;
-}
-
-.flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 10px;
-}
-
-#box1 {
-  display: flex;
-  width: 45%;
-  height: 100px;
-}
-
-#box2 {
-  display: flex;
-  width: 45%;
-  height: 100px;
-}
-
-#box3 {
-  display: flex;
-  width: 45%;
-  height: 100px;
-}
-
-#box1 img {
-  object-fit: fill;
-  width: 350px;
-  height: 100px;
-}
-
-#box2 img {
-  object-fit: fill;
-  width: 350px;
-  height: 100px;
-}
-
-.horizontal_line {
-  background-color: navy;
-  width: 15%;
-  height: 10px;
-  border-top: 5px solid black;
-}
-
-#box1 img:hover {
-  color: white;
-    box-shadow: 0 5px 15px aquamarine;
-    opacity: 0.5;
-}
-
-#box2 img:hover {
-  color: white;
-    box-shadow: 0 5px 15px purple;
-    opacity: 0.5;
-}
-
-#WorkTitle:hover {
-  color:white;
-
-}
-
-#ContactTitle:hover {
-  color: white;
-}
-
-#box3 img {
-      object-fit: fill;
-      width: 350px;
-      height: 100px;
-  }
-
-#box3 img:hover {
-  color: white;
-  box-shadow: 0 5px 15px crimson;
-  opacity: 0.5;
-}
-
-#box4 img {
-  object-fit: fill;
-  width: 350px;
-  height: 100px;
-}
-
-#box4 {
-  color: blue;
-  display: flex;
-  width: 45%;
-  height: 100px;
-}
-#box4 img:hover {
-color: white;
-box-shadow: 0 5px 15px blue;
-opacity: 0.5;
-}
-
-#box5 img {
-  object-fit: fill;
-  width: 350px;
-  height: 100px;
-}
-
-#box5 {
-  color: blue;
-  width: 45%;
-  display: flex;
-}
-#box5 img:hover {
-color: white;
-box-shadow: 0 5px 15px yellow;
-opacity: 0.5;
-}
-
-#box6 img {
-  object-fit: fill;
-  width: 350px;
-  height: 100px;
-}
-
-#box6 {
-  color: blue;
-  display: flex;
-  width: 45%;
-}
-#box6 img:hover {
-color: white;
-box-shadow: 0 5px 15px green;
-opacity: 0.5;
-}
-
-
-
-#ContactInfo {
-  color: purple;
-  font-style: italic;
-}
-
-#ContactInfo a:visited {
-  color: purple;
-}
-/*
-.bottom-left1 {
+.background-image {
   position: absolute;
-  bottom: 170px;
-  left: 250px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#287EC7;
-  color: yellow;
-}
-
-.bottom-left2 {
-  position: absolute;
-  bottom: -20px;
-  left: 215px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#287EC7;
-  color: red;
-}
-
-.bottom-left3 {
-  position: absolute;
-  bottom: -20px;
-  left: 600px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#287EC7;
-  color: white;
-
-}
-*/
-
-.imageContainer {
-  position: relative;
-  text-align: center;
-  color: white;
-  display:flex;
-  align-items: center;
-  flex-direction:column;
-  justify-content: space-between;
-}
-
-.text-container {
-  bottom:0;
+  top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/simple-cartoon-clouds-sky.png'); /* Adjust path as per your folder structure */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  opacity: 0.2; /* Adjust opacity as needed */
+  z-index: -1; /* Place behind other content */
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px; /* Add padding to center projects */
+}
+
+.project {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin-top: auto;
-  flex:1;
-  color:navy;
-  font-size:small;
-  
 }
 
-.bottom-center {
-  position: absolute;
-  font-size: 18px;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align:right;
-}
-@media screen and (max-width: 992px) {
-  .flex-container {
-      width: 75%;
-  }
+.project img {
+  width: 100%; /* Ensure the image spans the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
-  .flex-container {
-      width: 100%;
-  }
+.project-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.5;
 }

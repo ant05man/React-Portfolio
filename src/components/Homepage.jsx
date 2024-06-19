@@ -5,7 +5,7 @@ import React from 'react';
 function Homepage() {
     return (
         <header className="homepageHeader" style={{ textAlign: 'center', paddingTop: '30vh' }}>
-
+        <div className="background-image"></div>
         <h1>
             Welcome friends,<br></br> I'm Anthony
         </h1><br></br>

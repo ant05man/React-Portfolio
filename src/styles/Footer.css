@@ -1,38 +1,24 @@
 .footer {
-  background: linear-gradient(to right, white, aqua); /* Adjust the colors as needed */
-    height: 40px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background: linear-gradient(to right, white, aqua);
+  color: white;
+  text-align: center;
+  padding: 2px 0; /* Adjust padding as needed */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-  .footer img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .footer ul {
-    list-style: none;
-    display: flex; /* Make the list items display horizontally */
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer li {
-    margin-right: 20px;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: navy;
-    font-weight: bold;
-  }
-  
-  .footer a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer ul li img {
+  height: 20px; /* Adjust image height */
+  width: auto; /* Maintain aspect ratio */
+}
