@@ -11,7 +11,7 @@
   background-image: url('/simple-cartoon-clouds-sky.png'); /* Adjust the path as needed */
   background-size: cover;
   background-position: center;
-  color: navy; /* Ensure text color contrasts well with the background */
+  color: white; /* Ensure text color contrasts well with the background */
 }
 
 .homepage-content {
