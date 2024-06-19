@@ -7,7 +7,7 @@ const projects = [
     {
         title: 'Full-Stack Recipe Management Application',
         description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
-        link: 'food-recipes-ecommerce.vercel.app',
+        link: 'https://food-recipes-ecommerce.vercel.app',
         image: '/Screenshot (54).png',
       },
   {
