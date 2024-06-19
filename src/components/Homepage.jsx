@@ -1,17 +1,15 @@
-import '../styles/Homepage.css';
 import React from 'react';
-
+import '../styles/Homepage.css';
 
 function Homepage() {
-    return (
-        <header className="homepageHeader" style={{ textAlign: 'center', paddingTop: '30vh' }}>
-        <div className="background-image"></div>
-        <h1>
-            Welcome friends,<br></br> I'm Anthony
-        </h1><br></br>
+  return (
+    <div className="homepage-container">
+      <header className="homepage-content">
+        <h1>Welcome friends,<br /> I'm Anthony</h1>
         <p>Full-Stack Software Developer</p>
-        </header>
-    )
+      </header>
+    </div>
+  );
 }
 
 export default Homepage;
