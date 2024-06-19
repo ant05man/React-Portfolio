@@ -2,23 +2,35 @@
   background: linear-gradient(to right, white, aqua);
   color: white;
   text-align: center;
-  padding: 2px 0; /* Adjust padding as needed */
+  padding: 10px 0; /* Decrease padding to reduce height */
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 10; /* Ensure footer stays above content */
 }
 
 .footer ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
 }
 
 .footer ul li {
-  display: inline;
-  margin: 0 10px;
+  display: inline-block;
+  margin: 0 15px; /* Adjust spacing between links */
 }
 
 .footer ul li img {
-  height: 20px; /* Adjust image height */
+  height: 20px; /* Keep image height as desired */
   width: auto; /* Maintain aspect ratio */
+}
+
+.footer ul li a {
+  color: white; /* Ensure text color is white */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Maintain font size */
+  padding: 0 5px; /* Add padding for clickable area */
 }
