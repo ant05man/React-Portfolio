@@ -16,16 +16,10 @@ const projects = [
     image: '/Screenshot (51).png',
   },
   {
-    title: 'Flexbox',
-    description: 'Master the art of flexible layouts with Flexbox! Create responsive and dynamic web designs effortlessly with this powerful tool.',
-    link: 'https://ant05man.github.io/Flexbox-Mini-Project/',
-    image: '/Screenshot (6).png',
-  },
-  {
     title: 'Full-Stack Recipe Management Application',
     description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
-    link: 'https://briellebroadt.github.io/Witty-Web-Wizard/',
-    image: '/Screenshot (22).png',
+    link: 'food-recipes-ecommerce.vercel.app',
+    image: '/Screenshot (54).png',
   },
   {
     title: 'Workday-Scheduler',
