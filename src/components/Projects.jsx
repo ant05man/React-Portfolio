@@ -1,15 +1,23 @@
+// Projects.jsx
+
 import React from 'react';
 import '../styles/Projects.css';
 import '../App.css';
 
 const projects = [
-
-    {
-        title: 'Full-Stack Recipe Management Application',
-        description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
-        link: 'https://food-recipes-ecommerce.vercel.app',
-        image: '/Screenshot (54).png',
-      },
+  {
+    title: 'Full-Stack Recipe Management Application',
+    description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
+    link: 'https://food-recipes-ecommerce.vercel.app',
+    image: '/Screenshot (54).png',
+    technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'JSON Web Tokens (JWT)', 'bcrypt'],
+    keyContributions: `
+      Designed and developed the user interface with React, implementing a modern design and enhancing user experience through intuitive navigation and responsive layouts.
+      Built and integrated RESTful APIs using Node.js and Express to handle user authentication, recipe management, and data retrieval.
+      Ensured secure and efficient data handling with MongoDB and Mongoose, implementing data validation and relationships between users and recipes.
+      Deployed the application to cloud platforms, managing environment configurations and handling deployment processes to ensure high availability and scalability.
+    `
+  },
   {
     title: 'Cryptid-World (Still In Development)',
     description: 'Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)',
@@ -36,6 +44,20 @@ function Projects() {
             </a>
             <div className="project-title">{project.title}</div>
             <div className="project-description">{project.description}</div>
+            
+            {/* Render additional details only for the first project */}
+            {index === 0 && (
+              <div className="project-details">
+                <h3>Technologies Used:</h3>
+                <ul>
+                  {project.technologies.map((tech, idx) => (
+                    <li key={idx}>{tech}</li>
+                  ))}
+                </ul>
+                <h3>Key Contributions:</h3>
+                <p>{project.keyContributions}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>
