@@ -33,8 +33,8 @@ const projects = [
       'Vercel', 'Git/GitHub for version control'
     ],
     keyContributions: `
-      Designed and developed the user interface with React to create an engaging and immersive experience for exploring cryptids and mysterious creatures.
-      Built and integrated RESTful APIs using Node.js and Express for cryptid data retrieval and user interactions.
+      Developed an immersive web application to explore mysterious creatures and hidden secrets across various locations.
+      Utilized React for frontend development, creating a dynamic and engaging user interface.
       Managed and stored cryptid-related data using MongoDB and Mongoose, implementing efficient data handling and retrieval.
       Deployed the application using Vercel, ensuring smooth deployment processes and maintaining high availability.
     `
@@ -68,30 +68,17 @@ function Projects() {
             </a>
             <div className="project-title">{project.title}</div>
             <div className="project-description">{project.description}</div>
-            {project.title === 'Full-Stack Recipe Management Application' && (
-              <div className="project-details">
-                <h3>Technologies Used:</h3>
-                <ul>
-                  {project.technologies.map((tech, idx) => (
-                    <li key={idx}>{tech}</li>
-                  ))}
-                </ul>
-                <h3>Key Contributions:</h3>
-                <p>{project.keyContributions}</p>
-              </div>
-            )}
-            {project.title === 'Cryptid-World (Still In Development)' && (
-              <div className="project-details">
-                <h3>Technologies Used:</h3>
-                <ul>
-                  {project.technologies.map((tech, idx) => (
-                    <li key={idx}>{tech}</li>
-                  ))}
-                </ul>
-                <h3>Key Contributions:</h3>
-                <p>{project.keyContributions}</p>
-              </div>
-            )}
+            
+            <div className="project-details">
+              <h3>Technologies Used:</h3>
+              <ul>
+                {project.technologies.map((tech, idx) => (
+                  <li key={idx}>{tech}</li>
+                ))}
+              </ul>
+              <h3>Key Contributions:</h3>
+              <p>{project.keyContributions}</p>
+            </div>
           </div>
         ))}
       </div>
