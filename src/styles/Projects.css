@@ -1,49 +1,48 @@
 .Projects {
-  position: relative;
-  overflow: hidden; /* Ensure the background image doesn't overflow */
-}
-
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/simple-cartoon-clouds-sky.png'); /* Adjust path as per your folder structure */
-  background-size: cover; /* Cover the entire section */
-  background-position: center; /* Center the background image */
-  opacity: 0.2; /* Adjust opacity as needed */
-  z-index: -1; /* Place behind other content */
+  /* Add background styling if needed */
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  padding: 20px; /* Add padding to center projects */
 }
 
 .project {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
   text-align: center;
-}
-
-.project img {
-  width: 100%; /* Ensure the image spans the container width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-title {
-  font-weight: bold;
   font-size: 1.2rem;
-  margin: 10px 0;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .project-description {
-  font-size: 1rem;
-  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.project-details {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left for better readability */
+}
+
+.project-details h3 {
+  margin-bottom: 10px;
+}
+
+.project-details ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  white-space: pre-wrap; /* Preserve newlines in key contributions */
 }

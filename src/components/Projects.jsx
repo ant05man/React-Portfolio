@@ -1,5 +1,3 @@
-// Projects.jsx
-
 import React from 'react';
 import '../styles/Projects.css';
 import '../App.css';
@@ -10,7 +8,12 @@ const projects = [
     description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
     link: 'https://food-recipes-ecommerce.vercel.app',
     image: '/Screenshot (54).png',
-    technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'JSON Web Tokens (JWT)', 'bcrypt'],
+    technologies: [
+      'React', 'HTML', 'CSS', 'JavaScript',
+      'Node.js', 'Express', 'MongoDB', 'Mongoose',
+      'JSON Web Tokens (JWT)', 'bcrypt',
+      'Vercel', 'Git/GitHub for version control'
+    ],
     keyContributions: `
       Designed and developed the user interface with React, implementing a modern design and enhancing user experience through intuitive navigation and responsive layouts.
       Built and integrated RESTful APIs using Node.js and Express to handle user authentication, recipe management, and data retrieval.
@@ -23,12 +26,33 @@ const projects = [
     description: 'Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)',
     link: 'https://cryptid-world.vercel.app/',
     image: '/Cryptid-World Screenshot.png',
+    technologies: [
+      'React', 'HTML', 'CSS', 'JavaScript',
+      'Node.js', 'Express', 'MongoDB', 'Mongoose',
+      'JSON Web Tokens (JWT)', 'bcrypt',
+      'Vercel', 'Git/GitHub for version control'
+    ],
+    keyContributions: `
+      Designed and developed the user interface with React to create an engaging and immersive experience for exploring cryptids and mysterious creatures.
+      Built and integrated RESTful APIs using Node.js and Express for cryptid data retrieval and user interactions.
+      Managed and stored cryptid-related data using MongoDB and Mongoose, implementing efficient data handling and retrieval.
+      Deployed the application using Vercel, ensuring smooth deployment processes and maintaining high availability.
+    `
   },
   {
     title: 'Reel-Delights',
     description: 'Indulge in a cinematic journey with Reel-Delights! Invite your friends to watch some of your favorite movies.',
     link: 'https://reel-delights.onrender.com/',
     image: '/Screenshot (51).png',
+    technologies: [
+      'React', 'HTML', 'CSS', 'JavaScript',
+      'Render'
+    ],
+    keyContributions: `
+      Developed a movie recommendation web application using React, HTML, CSS, and JavaScript.
+      Created an intuitive and responsive user interface for seamless navigation and interaction.
+      Deployed the application using Render, ensuring high availability and performance.
+    `
   }
 ];
 
@@ -44,9 +68,19 @@ function Projects() {
             </a>
             <div className="project-title">{project.title}</div>
             <div className="project-description">{project.description}</div>
-            
-            {/* Render additional details only for the first project */}
-            {index === 0 && (
+            {project.title === 'Full-Stack Recipe Management Application' && (
+              <div className="project-details">
+                <h3>Technologies Used:</h3>
+                <ul>
+                  {project.technologies.map((tech, idx) => (
+                    <li key={idx}>{tech}</li>
+                  ))}
+                </ul>
+                <h3>Key Contributions:</h3>
+                <p>{project.keyContributions}</p>
+              </div>
+            )}
+            {project.title === 'Cryptid-World (Still In Development)' && (
               <div className="project-details">
                 <h3>Technologies Used:</h3>
                 <ul>
