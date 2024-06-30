@@ -54,6 +54,14 @@ const projects = [
       Deployed the application using Render, ensuring high availability and performance.
     `
   }
+  {
+    title: 'Workday-Scheduler',
+    description: '',
+    link:'https://ant05man.github.io/Workday-scheduler/',
+    image: '/Screenshot (42).png',
+    technologies: [],
+      keyContributions: ''
+  }
 ];
 
 function Projects() {
