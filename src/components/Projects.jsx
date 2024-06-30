@@ -53,14 +53,21 @@ const projects = [
       Created an intuitive and responsive user interface for seamless navigation and interaction.
       Deployed the application using Render, ensuring high availability and performance.
     `
-  }
+  },
   {
-    title: 'Workday-Scheduler',
-    description: '',
-    link:'https://ant05man.github.io/Workday-scheduler/',
+    title: 'Workday Scheduler',
+    description: 'A simple calendar app for scheduling your work day. The Workday Scheduler helps users manage their daily tasks with a clear, hour-by-hour interface, allowing them to keep track of their schedule easily. Built using jQuery and Bootstrap for a responsive and functional design.',
+    link: 'https://ant05man.github.io/Workday-scheduler/',
     image: '/Screenshot (42).png',
-    technologies: [],
-      keyContributions: ''
+    technologies: [
+      'HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'Moment.js'
+    ],
+    keyContributions: `
+      Developed a dynamic, user-friendly scheduling interface using jQuery and Bootstrap, providing an intuitive hour-by-hour task management system.
+      Implemented localStorage functionality to persist user data, ensuring tasks are saved even after the page is refreshed.
+      Utilized Moment.js for real-time date and time functionality, dynamically updating the UI based on the current hour.
+      Created responsive layouts to ensure compatibility across various devices and screen sizes.
+    `
   }
 ];
 
