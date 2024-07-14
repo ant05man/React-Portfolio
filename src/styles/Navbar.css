@@ -1,36 +1,36 @@
 /* Base styles for navbar */
 .navbar {
-  background: linear-gradient(to right, white, aqua); /* Adjust the colors as needed */
+  background: linear-gradient(to right, white, aqua);
   height: 40px;
   display: flex;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  padding: 0 20px; /* Add padding to the navbar */
+  padding: 0 20px;
 }
 
-.navbar a {
+.navbar-link {
   color: navy;
   font-size: 1rem;
   text-decoration: none;
-  margin: 0 10px; /* Adjust the margins for spacing */
+  margin: 0 10px;
   line-height: 3;
 }
 
-.navbar a:hover {
+.navbar-link:hover {
   color: white;
 }
 
 /* Media query for responsive design */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack items vertically */
-    height: 40px; /* Allow the navbar to expand based on content */
-    padding: 10px; /* Increase padding for better touch targets */
+    flex-direction: column;
+    padding: 10px;
+    height: auto; /* Allow navbar to expand based on content */
   }
 
-  .navbar a {
-    margin: 5px 0; /* Adjust margins for vertical stacking */
-    text-align: center; /* Center align text */
-    font-size: 0.8rem; /* Decreasing the font size for smaller windows */
+  .navbar-link {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1rem;
   }
 }
