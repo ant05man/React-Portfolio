@@ -24,12 +24,13 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column; /* Stack items vertically */
-    height: auto; /* Allow the navbar to expand based on content */
+    height: 40px; /* Allow the navbar to expand based on content */
     padding: 10px; /* Increase padding for better touch targets */
   }
 
   .navbar a {
     margin: 5px 0; /* Adjust margins for vertical stacking */
     text-align: center; /* Center align text */
+    font-size: 0.8rem; /* Decreasing the font size for smaller windows */
   }
 }
