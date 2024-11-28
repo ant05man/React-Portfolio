@@ -4,23 +4,24 @@ import '../App.css';
 
 const projects = [
   {
-    title: 'Full-Stack Recipe Management Application',
-    description: 'Developed a full-stack recipe management application that allows users to register, log in, and manage their favorite recipes. The application provides features for user authentication, recipe storage, and retrieval, showcasing a modern, responsive interface built with React, and a robust backend powered by Node.js and Express.',
-    link: 'https://food-recipes-ecommerce.vercel.app',
-    image: '/Screenshot (54).png',
+    title: 'To-Do App(Works Locally)',
+    description: 'Developed a full-stack task management application that allows users to create, edit, mark as complete, and delete tasks. The application features a responsive and user-friendly interface built with React and CSS, and a robust backend powered by Node.js, Express, and MongoDB.',
+    link: 'https://github.com/ant05man/todo-app',
+    image: '/Screenshot(64).png',
     technologies: [
       'React', 'HTML', 'CSS', 'JavaScript',
       'Node.js', 'Express', 'MongoDB', 'Mongoose',
-      'JSON Web Tokens (JWT)', 'bcrypt',
+      'RESTful APIs', 'Axios',
       'Vercel', 'Git/GitHub for version control'
     ],
     keyContributions: `
-      Designed and developed the user interface with React, implementing a modern design and enhancing user experience through intuitive navigation and responsive layouts.
-      Built and integrated RESTful APIs using Node.js and Express to handle user authentication, recipe management, and data retrieval.
-      Ensured secure and efficient data handling with MongoDB and Mongoose, implementing data validation and relationships between users and recipes.
-      Deployed the application to cloud platforms, managing environment configurations and handling deployment processes to ensure high availability and scalability.
+      - Designed and developed an intuitive and visually appealing user interface using React, enhancing usability and responsiveness for seamless task management.
+      - Implemented backend functionality with Node.js and Express, creating RESTful APIs to handle CRUD operations for tasks efficiently.
+      - Utilized MongoDB and Mongoose for secure and scalable data storage, implementing schema validation for data consistency.
+      - Deployed the application to Vercel, configuring environment variables and managing deployment for high availability.
     `
   },
+  
   {
     title: 'Cryptid-World (Still In Development)',
     description: 'Embark on an adventure into the unknown with Cryptid-World! Explore mysterious creatures and hidden secrets in this immersive experience. (Still in Development)',

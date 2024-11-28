@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 
+const pizza="Hello";
+console.log(pizza);
+
 const skills = [
     { name: 'JavaScript'},
     { name: 'React'},
