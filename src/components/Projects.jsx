@@ -51,7 +51,8 @@ const projects = [
     keyContributions: `-Designed and implemented the user interface using React, ensuring a responsive and user-friendly experience.
     - Integrated the OMDB API to provide real-time movie search results and movie details.
     - Created efficient state management and dynamic rendering to update search results and movie details.
-    - Deployed the app to Vercel, ensuring seamless user access and optimized performance`,
+    - Deployed the app to Vercel, ensuring seamless user access and optimized performance
+    - User authentication needed for login/signup`
   },
   {
     title: 'Workday Scheduler',
