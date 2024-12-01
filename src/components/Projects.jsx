@@ -7,7 +7,7 @@ const projects = [
     title: 'To-Do App(Works Locally)',
     description: 'Developed a full-stack task management application that allows users to create, edit, mark as complete, and delete tasks. The application features a responsive and user-friendly interface built with React and CSS, and a robust backend powered by Node.js, Express, and MongoDB.',
     link: 'https://github.com/ant05man/todo-app',
-    image: '/Screenshot(64).png',
+    image: '/Screenshot (64).png',
     technologies: [
       'React', 'HTML', 'CSS', 'JavaScript',
       'Node.js', 'Express', 'MongoDB', 'Mongoose',
@@ -18,8 +18,7 @@ const projects = [
       - Designed and developed an intuitive and visually appealing user interface using React, enhancing usability and responsiveness for seamless task management.
       - Implemented backend functionality with Node.js and Express, creating RESTful APIs to handle CRUD operations for tasks efficiently.
       - Utilized MongoDB and Mongoose for secure and scalable data storage, implementing schema validation for data consistency.
-      - Deployed the application to Vercel, configuring environment variables and managing deployment for high availability.
-    `
+          `
   },
   
   {
@@ -42,18 +41,17 @@ const projects = [
   },
   {
     title: 'Reel-Delights',
-    description: 'Indulge in a cinematic journey with Reel-Delights! Invite your friends to watch some of your favorite movies.',
+    description: 'Developed a movie search application that allows users to discover, search, and explore movies using the OMDB API. The app enables users to filter movies based on various genres and ratings, providing a dynamic and engaging user experience. Built with React, it features a clean interface, smooth navigation, and responsive design.',
     link: 'https://reel-delights.onrender.com/',
     image: '/Screenshot (51).png',
     technologies: [
       'React', 'HTML', 'CSS', 'JavaScript',
       'Render'
     ],
-    keyContributions: `
-      Developed a movie recommendation web application using React, HTML, CSS, and JavaScript.
-      Created an intuitive and responsive user interface for seamless navigation and interaction.
-      Deployed the application using Render, ensuring high availability and performance.
-    `
+    keyContributions: `-Designed and implemented the user interface using React, ensuring a responsive and user-friendly experience.
+    - Integrated the OMDB API to provide real-time movie search results and movie details.
+    - Created efficient state management and dynamic rendering to update search results and movie details.
+    - Deployed the app to Vercel, ensuring seamless user access and optimized performance`,
   },
   {
     title: 'Workday Scheduler',
