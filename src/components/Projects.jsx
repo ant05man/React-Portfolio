@@ -4,6 +4,25 @@ import '../App.css';
 
 const projects = [
   {
+    title: 'Shopping Cart App',
+    description: 'A full-stack e-commerce application that allows users to browse products, add items to a cart, sign up/log in, and place orders. Features user authentication and protected checkout. Built with React on the frontend and Node.js/Express/MongoDB on the backend.',
+    link: 'https://shopping-cart-project-git-main-ant05mans-projects.vercel.app/',
+    image: '/Screenshot (68).png',
+    technologies: [
+      'React', 'HTML', 'CSS', 'JavaScript',
+      'Node.js', 'Express', 'MongoDB', 'Mongoose',
+      'JWT (JSON Web Tokens)', 'bcrypt', 'Axios',
+      'Vercel (Frontend)', 'Render (Backend)', 'Git/GitHub'
+    ],
+    keyContributions: `
+      - Developed a dynamic e-commerce frontend using React with features like cart, product listing, and checkout.
+      - Built a RESTful backend using Node.js and Express with MongoDB for product, user, and order data.
+      - Implemented secure user authentication using JWT and bcrypt for signup/login and protected routes.
+      - Deployed the frontend on Vercel and backend on Render with environment variables for clean separation.
+      - Utilized Axios for client-server communication, handling async login, signup, and order placement.
+    `
+  },
+  {
     title: 'To-Do App(Works Locally)',
     description: 'Developed a full-stack task management application that allows users to create, edit, mark as complete, and delete tasks. The application features a responsive and user-friendly interface built with React and CSS, and a robust backend powered by Node.js, Express, and MongoDB.',
     link: 'https://github.com/ant05man/todo-app',
