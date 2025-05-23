@@ -23,9 +23,9 @@ const projects = [
     `
   },
   {
-    title: 'To-Do App(Works Locally)',
+    title: 'To-Do App',
     description: 'Developed a full-stack task management application that allows users to create, edit, mark as complete, and delete tasks. The application features a responsive and user-friendly interface built with React and CSS, and a robust backend powered by Node.js, Express, and MongoDB.',
-    link: 'https://github.com/ant05man/todo-app',
+    link: 'https://todo-app-frontend-nine-pink.vercel.app/',
     image: '/Screenshot (64).png',
     technologies: [
       'React', 'HTML', 'CSS', 'JavaScript',
