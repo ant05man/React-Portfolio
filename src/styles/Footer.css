@@ -2,8 +2,6 @@
   background: linear-gradient(to right, white, aqua);
   color: white;
   text-align: center;
-  padding: 10px 0; /* Decrease padding to reduce height */
-  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 10; /* Ensure footer stays above content */
@@ -33,4 +31,20 @@
   text-decoration: none; /* Remove underline */
   font-size: 16px; /* Maintain font size */
   padding: 0 5px; /* Add padding for clickable area */
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: #e0f7fa;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .footer ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .footer ul li {
+    margin: 5px 0;
+  }
 }
