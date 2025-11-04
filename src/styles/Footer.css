@@ -2,49 +2,46 @@
   background: linear-gradient(to right, white, aqua);
   color: white;
   text-align: center;
-  bottom: 0;
+  padding: 6px 0; /* smaller height */
   width: 100%;
-  z-index: 10; /* Ensure footer stays above content */
+  z-index: 10;
 }
 
 .footer ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Remove default margin */
-  display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* clean spacing */
 }
 
 .footer ul li {
   display: inline-block;
-  margin: 0 15px; /* Adjust spacing between links */
 }
 
 .footer ul li img {
-  height: 20px; /* Keep image height as desired */
-  width: auto; /* Maintain aspect ratio */
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
 }
 
 .footer ul li a {
-  color: white; /* Ensure text color is white */
-  text-decoration: none; /* Remove underline */
-  font-size: 16px; /* Maintain font size */
-  padding: 0 5px; /* Add padding for clickable area */
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 3px;
+  transition: color 0.3s ease;
 }
 
 .footer ul li a:hover {
-  text-decoration: underline;
-  color: #e0f7fa;
-  transition: color 0.3s ease;
+  color: #004d66; /* subtle hover contrast */
 }
 
 @media (max-width: 600px) {
   .footer ul {
     flex-direction: column;
-    gap: 5px;
-  }
-  .footer ul li {
-    margin: 5px 0;
+    gap: 8px;
   }
 }

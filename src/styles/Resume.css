@@ -1,63 +1,47 @@
-/* Resume.css */
-
 .resume-container {
-    position: relative;
-    overflow: hidden;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('/simple-cartoon-clouds-sky.png'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .resume-content {
-    position: relative;
-    z-index: 1;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .resumeTitle {
-    color: navy;
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .resumeDownload {
-    display: block;
-    margin-bottom: 20px;
-    color: navy;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .resumeDownload:hover {
-    text-decoration: underline;
-  }
-  
-  .resumeListItem {
-    margin: 10px 0;
-  }
-  
-  .resumeListItem .resumeInfo {
-    color: navy;
-  }
-  
-  .resumeListItem img {
-    height: 40px; /* Adjust height as needed */
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .rutgersLogo, .msuLogo {
-    height: 30px; /* Adjust height as needed */
-    margin-right: 10px;
-  }
-  
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.resume-header h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.resume-header p a {
+  color: #2575fc;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section h3 {
+  font-size: 1.6rem;
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.skills-list li {
+  margin-bottom: 5px;
+}
