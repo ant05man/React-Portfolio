@@ -6,20 +6,16 @@ function Homepage() {
   return (
     <div className="homepage-container">
       <div className="overlay"></div>
-
       <header className="homepage-content">
         <h1>
           Hey, I’m <span className="highlight">Anthony</span>
         </h1>
         <h2>Full-Stack Software Developer</h2>
         <p>
-          I build modern, responsive, and user-friendly web applications using
-          <strong> React, Node.js, Express,</strong> and <strong>MongoDB.</strong>
-          I love turning ideas into smooth, functional designs.
+          I build responsive, user-friendly web applications using React, Node.js, Express, and MongoDB. I turn ideas into smooth, functional designs that clients and users love.
         </p>
 
         <div className="homepage-buttons">
-          {/* Using Link instead of <a> ensures smooth navigation like Navbar */}
           <Link to="/projects" className="btn primary-btn">View My Work</Link>
           <Link to="/contact" className="btn secondary-btn">Contact Me</Link>
         </div>
@@ -29,7 +25,7 @@ function Homepage() {
           <span>JavaScript</span>
           <span>Node.js</span>
           <span>MongoDB</span>
-          <span>Tailwind / CSS</span>
+          <span>CSS / Tailwind</span>
         </div>
       </header>
     </div>
