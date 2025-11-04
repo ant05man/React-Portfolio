@@ -1,36 +1,31 @@
-/* Base styles for navbar */
 .navbar {
-  background: linear-gradient(to right, white, aqua);
-  height: 40px;
+  background: #2575fc; /* Unified blue */
+  padding: 12px 24px;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 25px;
   font-family: 'Roboto', sans-serif;
-  padding: 0 20px;
 }
 
 .navbar-link {
-  color: navy;
-  font-size: 1rem;
+  color: white;
   text-decoration: none;
-  margin: 0 10px;
-  line-height: 3;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .navbar-link:hover {
-  color: white;
+  color: #ffd700;
 }
 
-/* Media query for responsive design */
+.navbar-link.active {
+  border-bottom: 2px solid #ffd700; /* Active page indicator */
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    padding: 10px;
-    height: auto; /* Allow navbar to expand based on content */
-  }
-
-  .navbar-link {
-    margin: 5px 0;
-    text-align: center;
-    font-size: 1rem;
+    gap: 10px;
   }
 }

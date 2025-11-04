@@ -1,12 +1,13 @@
 .homepage-container {
   position: relative;
-  height: 100vh;
+  flex: 1; /* allows content to push footer down */
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
   color: white;
   text-align: center;
+  min-height: calc(100vh - 60px); /* account for navbar height if needed */
   overflow: hidden;
 }
 

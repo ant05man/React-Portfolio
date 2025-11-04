@@ -12,7 +12,9 @@ function Homepage() {
         </h1>
         <h2>Full-Stack Software Developer</h2>
         <p>
-          I build responsive, user-friendly web applications using React, Node.js, Express, and MongoDB. I turn ideas into smooth, functional designs that clients and users love.
+          I build modern, responsive, and user-friendly web applications using
+          <strong> React, Node.js, Express,</strong> and <strong>MongoDB.</strong>
+          I love turning ideas into smooth, functional designs.
         </p>
 
         <div className="homepage-buttons">
@@ -25,7 +27,7 @@ function Homepage() {
           <span>JavaScript</span>
           <span>Node.js</span>
           <span>MongoDB</span>
-          <span>CSS / Tailwind</span>
+          <span>Tailwind / CSS</span>
         </div>
       </header>
     </div>
