@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* pushes left and right sections apart */
   padding: 12px 24px;
   background: #1a3d8f;
   font-family: 'Roboto', sans-serif;
@@ -8,7 +9,20 @@
   box-sizing: border-box;
 }
 
-/* Logo on the left */
+/* Left section for logo */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Right section for links */
+.navbar-right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+/* Logo styling */
 .logo-badge {
   background: rgba(255, 255, 255, 0.08);
   border: 2px solid #ffd700;
@@ -16,25 +30,17 @@
   font-family: 'Bungee Spice', cursive;
   font-weight: bold;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.6rem;
   text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
-  font-size: 1.5rem;
 }
 
-/* Links container */
-.links-container {
-  margin-left: auto; /* pushes links to the right */
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-/* Navbar links */
+/* Links styling */
 .navbar-link {
   color: white;
   text-decoration: none;
@@ -50,7 +56,7 @@
   border-bottom: 2px solid #ffd700;
 }
 
-/* Responsive */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -58,7 +64,7 @@
     gap: 10px;
   }
 
-  .links-container {
+  .navbar-right {
     flex-direction: column;
     gap: 8px;
     width: 100%;
