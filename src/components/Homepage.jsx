@@ -5,6 +5,7 @@ import '../styles/Homepage.css';
 function Homepage() {
   return (
     <div className="homepage-container">
+      <div className="logo-badge">AL</div>
       <div className="overlay"></div>
       <header className="homepage-content">
         <h1>
