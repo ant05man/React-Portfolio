@@ -1,25 +1,46 @@
-/* Ensure this file exists and is imported correctly */
-
 .Projects {
-  padding: 20px;
-  background-color: #f9f9f9;
+  position: relative;
+  flex: 1;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, aqua 0%, #2575fc 100%);
+  overflow: hidden;
 }
 
+/* Dark overlay on gradient */
+.Projects .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  pointer-events: none; /* allows clicks to pass through */
+  z-index: 0;
+}
+
+/* Projects container above overlay */
 .projects-container {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding: 20px;
 }
 
+/* Project cards */
 .project {
-  max-width: 300px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #fff; /* fully white */
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
 
 .project img {
@@ -29,34 +50,13 @@
 }
 
 .project-title {
-  font-size: 1.5em;
-  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.project-description,
+.project-details p,
+.project-details ul li {
   color: #333;
-}
-
-.project-description {
-  margin-top: 10px;
-  color: #666;
-}
-
-.project-details {
-  margin-top: 20px;
-  text-align: left;
-}
-
-.project-details h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.project-details ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  color: #666;
-}
-
-.project-details p {
-  white-space: pre-wrap;
-  color: #666;
 }

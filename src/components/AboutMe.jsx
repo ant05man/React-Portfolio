@@ -16,6 +16,8 @@ const skills = [
 function AboutMe() {
     return (
         <div className="aboutme-container">
+
+            <div className="overlay"></div>
             <header className="aboutme">
                 <div className="aboutme-content">
                     <h2>Hello I am</h2>

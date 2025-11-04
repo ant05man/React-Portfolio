@@ -1,44 +1,71 @@
 .aboutme-container {
   position: relative;
-  overflow: hidden; /* Ensure the background image doesn't overflow */
-}
-
-.aboutme {
-  background-image: url('/simple-cartoon-clouds-sky.png'); /* Adjust path as per your folder structure */
-  background-size: cover; /* Cover the entire section */
-  background-position: center; /* Center the background image */
-  padding-top: 10vh;
+  flex: 1; /* allow footer to stay at bottom */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, aqua 0%, #2575fc 100%);
+  color: white;
   text-align: center;
-  color: navy; /* Set text color to contrast with background */
-  position: relative; /* Ensure children are positioned relative to this element */
-  z-index: 0; /* Place behind other content */
-  
+  min-height: calc(100vh - 60px); /* account for navbar height */
+  overflow: hidden;
 }
 
+/* Overlay to darken background like homepage */
+.aboutme-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Content wrapper */
 .aboutme-content {
   position: relative;
-  z-index: 1; /* Ensure content is above background image */
-  margin: 0 auto; /* Center content horizontally */
-  max-width: 600px; /* Adjust max-width as needed */
-  padding: 0 20px; /* Add padding to content */
+  z-index: 1; /* appear above overlay */
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+/* Name / Heading */
 .nameText {
-  font-size: 2rem; /* Adjust font size as needed */
+  font-size: 3rem;
   font-weight: bold;
   margin: 20px 0;
+  color: white; /* Ensure high contrast */
 }
 
+/* Body text */
 .bodyText {
-  font-size: 1.2rem; /* Adjust font size as needed */
+  font-size: 1.2rem;
   line-height: 1.6;
   margin: 20px 0;
+  color: #f0f0f0;
 }
 
+/* Skills / table container */
 .skillsTable {
   padding: 10px;
   border-radius: 5px;
-  margin-top: 20px;
-  margin: 0 auto; /* Center the table horizontally */
-  max-width: 400px; /* Adjust max-width as needed */
+  margin: 20px auto 0 auto;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent to show gradient behind */
+  color: white;
+  text-align: left;
+}
+
+/* Optional: headings inside skillsTable */
+.skillsTable h3 {
+  margin-bottom: 10px;
+  color: #ffd700; /* highlight color from homepage */
+}
+
+/* Optional: list items inside skillsTable */
+.skillsTable ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #f0f0f0;
 }

@@ -77,7 +77,11 @@ const projects = [
 function Projects() {
   return (
     <section className="Projects">
-      <div className="background-image"></div>
+
+      {/* Overlay on gradient background */}
+      <div className="overlay"></div>
+
+      {/* Main content */}
       <div className="projects-container">
         {projects.map((project, index) => (
           <div className="project" key={index}>
