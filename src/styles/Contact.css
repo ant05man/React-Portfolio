@@ -3,28 +3,70 @@
 .contact-container {
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: calc(100vh - 60px); /* full height minus navbar */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/simple-cartoon-clouds-sky.png'); /* Path to your image */
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, aqua 0%, #2575fc 100%); /* gradient like other pages */
+  color: white;
+}
+
+.contact-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: 0;
 }
 
 .contact-content {
   position: relative;
-  z-index: 1;
+  z-index: 1; /* above overlay */
   margin: 0 auto;
   max-width: 600px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 30px 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1); /* subtle semi-transparent */
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.contactInfo {
-  color: navy;
-  font-size: 1.5rem;
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffd700; /* gold highlight */
+}
+
+.contact-content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #f0f0f0; /* light text for contrast */
+}
+
+.contact-content a {
+  color: #ffd700; /* gold for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: add fade-in animation like Homepage */
+.contact-content {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
