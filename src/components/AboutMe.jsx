@@ -1,48 +1,42 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 
-const pizza="Hello";
-console.log(pizza);
-
 const skills = [
-    { name: 'JavaScript'},
-    { name: 'React'},
-    { name: 'Node.js' },
-    { name: 'CSS' },
-    { name: 'HTML'},
-    { name: 'MongoDB'}
+  'JavaScript',
+  'React',
+  'Node.js',
+  'CSS',
+  'HTML',
+  'MongoDB'
 ];
 
 function AboutMe() {
-    return (
-        <div className="aboutme-container">
+  return (
+    <div className="aboutme-container">
+      <div className="overlay"></div>
 
-            <div className="overlay"></div>
-            <header className="aboutme">
-                <div className="aboutme-content">
-                    <h2>Hello I am</h2>
-                    <h2 className='nameText'>Anthony Littlejohn</h2>
-                    <h3 className='bodyText'>I'm a software engineer based in New Jersey that specializes
-                        In Full-Stack Development. I have graduated from the Rutgers Full-Stack Coding Bootcamp, where I have had the opportunity to learn from some great teachers and meet some great people. I have re-awaked a passion of mine that I have had since I was in high school, and now I feel is the time to live my life with something that I am genuinely passionate about. I love to learn and I love that this field allows me the opportunity to learn something new everyday and allows me to use my creativity to create different applications. While you're here, if interested, check out some my projects that I am very proud of!
-                    </h3>
-                </div>
-                <table className="skillsTable">
-                    <thead>
-                        <tr>
-                            <th>Skills</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {skills.map((skill, index) => (
-                            <tr key={index}>
-                                <td>{skill.name}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </header>
+      <div className="aboutme-content">
+        <div className="aboutme-text">
+          <h2>Hello, I’m</h2>
+          <h1 className="nameText">Anthony Littlejohn</h1>
+          <p className="bodyText">
+          Hey! I’m Anthony Littlejohn, a full-stack software developer based in New Jersey. I build modern, responsive, and user-friendly web applications using React, Node.js, Express, and MongoDB.
+
+I discovered my passion for coding in high school, and after graduating from the Rutgers Full-Stack Coding Bootcamp, I’ve been focused on turning ideas into smooth, functional applications. I love learning new technologies, solving problems creatively, and building tools that make life easier and more engaging.
+          </p>
         </div>
-    );
+
+        <div className="skills-section">
+          <h3>Skills</h3>
+          <ul>
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default AboutMe;

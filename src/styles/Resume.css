@@ -1,47 +1,36 @@
 .resume-container {
-  max-width: 900px;
-  margin: 50px auto;
+  margin: 0 auto;
+  width:100%;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: #222;
-  background-color: #f9f9f9;
+  color: white; /* text color for contrast */
+  background: linear-gradient(135deg, aqua 0%, #2575fc 100%); /* gradient background */
   border-radius: 8px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
 }
 
-.resume-header {
-  text-align: center;
-  margin-bottom: 30px;
+/* Dark overlay */
+.resume-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
 }
 
-.resume-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 5px;
-}
-
-.resume-header h2 {
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: #555;
+/* Content above overlay */
+.resume-header,
+.resume-section {
+  position: relative;
+  z-index: 1;
 }
 
 .resume-header p a {
-  color: #2575fc;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.resume-section {
-  margin-bottom: 25px;
-}
-
-.resume-section h3 {
-  font-size: 1.6rem;
-  color: #2575fc;
-  margin-bottom: 10px;
-}
-
-.skills-list li {
-  margin-bottom: 5px;
+  color: #ffd700; /* gold for links to match homepage highlight */
 }
